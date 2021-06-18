@@ -5,7 +5,7 @@ pipeline {
     stage('Prepare Artifacts') {
        steps {
        sh '''
-         zip -r ..redis.zip *
+         zip -r redis.zip *
        '''
        }
     }
