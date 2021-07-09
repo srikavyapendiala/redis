@@ -1,6 +1,0 @@
-@Library('todoshop') _
-
-docker (
-        COMPONENT             : 'redis',
-        PROJECT_NAME          : "todoshop"
-)
